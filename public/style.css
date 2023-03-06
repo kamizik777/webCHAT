@@ -1,0 +1,105 @@
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #0d6efd;
+    border-radius: 10px;
+  }
+
+
+body {
+    background-color: #353740;
+    overflow-x: hidden !important;
+
+}
+
+.card.shadow {
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: rgba(68, 70, 84);
+    overflow-y: auto !important;
+}
+
+.card-body {
+    height: 500px;
+    overflow-y: auto !important;
+}
+
+.chat {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+}
+
+
+#mensagem {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    height: 50px;
+}
+
+.mb-3 {
+    margin-bottom: 0rem !important;
+}
+
+#mensagens {
+    display: inline-block;
+    flex-direction: column;
+
+}
+
+.digitarNome {
+    display: flex;
+    justify-content: center;
+
+}
+
+.recebido p {
+    display: flex !important;
+    border-radius: 18px 18px 0 18px !important;
+    margin-left: auto !important;
+    color: #f8f9fa !important;
+    background-color: #212529 !important;
+    padding: 8px 2px 8px !important;
+}
+
+#mensagens p {
+    display: flex;
+    border-radius: 18px 18px 0 18px;
+    
+    background-color: #f8f9fa;
+    color: #212529;
+    padding: 8px 12px 8px;
+
+}
+
+.enviado{
+    display: table !important;
+    border-radius: 18px 18px 0px 18px !important;
+    background-color: #f8f9fa !important;
+    color: #212529 !important;
+    margin-left: auto;
+}
+
+.recebido{
+    display: table!important;
+    border-radius: 18px 18px 18px 0px !important;
+    color: #f8f9fa !important;
+    background-color: #212529 !important;
+}
+
+.container-fluid p .recebido{
+    width: 10%;
+}
+
