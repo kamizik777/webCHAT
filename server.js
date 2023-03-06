@@ -36,7 +36,6 @@ serverSocket.on("connection", function (socket) {
     serverSocket.emit("chat msg", objLogin);
     socket.nickname = nickname;
     
-    
   });
 
   socket.on("chat msg", function (msg) {
